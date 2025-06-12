@@ -7,5 +7,5 @@ edition = "2021"
 tokio = { version = "1", features = ["full"] }
 tokio-native-tls = "0.3"
 native-tls = "0.2"
-socks = "0.3"
+tokio-socks = "0.5"
 rand = "0.8"
