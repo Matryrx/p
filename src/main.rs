@@ -13,7 +13,7 @@ async fn main() {
     let proxies = load_proxies();
     let target = "94.237.66.118";
     let port_tcp = 80;
-    let port_udp = 12345;
+    let port_udp = 80;
     let port_tls = 443;
 
     let proxy_copy1 = proxies.clone();
