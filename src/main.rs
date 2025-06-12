@@ -11,7 +11,7 @@ use tokio::task;
 #[tokio::main]
 async fn main() {
     let proxies = load_proxies();
-    let target = "example.com";
+    let target = "94.237.66.118";
     let port_tcp = 80;
     let port_udp = 12345;
     let port_tls = 443;
